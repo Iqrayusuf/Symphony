@@ -1,0 +1,51 @@
+CREATE DATABASE musicstore
+
+CREATE TABLE 'musicstore'.'customer'(
+    Id int NOT NULL AUTO_INCREMENT,
+    name varchar(45) NOT NULL,
+    dob varchar(15) NOT NULL,
+    gender varchar(10) NOT NULL,
+    phone varchar(10) NOT NULL,
+    email varchar(40) NOT NULL,
+    username varchar(45) NOT NULL,
+    password varchar(45)NOT NULL,
+    PRIMARY KEY('Id'));
+
+
+CREATE TABLE 'musicstore'.'payment_gateway' (
+  PaymentID varchar(12) NOT NULL,
+  FullName varchar(50) NOT NULL,
+  DateOfPurchase date NOT NULL,
+  email varchar(50) NOT NULL,
+  MobileNo varchar(20) NOT NULL,
+  CardType varchar(20) NOT NULL,
+  CardNum varchar(50) NOT NULL,
+  ExpiryDate date NOT NULL,
+  CVV varchar(10) NOT NULL,
+  PRIMARY KEY (PaymentID)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
+CREATE TABLE 'musicstore'.'artist'(
+	AID int NOT NULL AUTO_INCREMENT,
+	name varchar(45) NOT NULL,
+	artist_name varchar(45) NOT NULL,
+	dob varchar(45) NOT NULL,
+	gender varchar(45) NOT NULL,
+	phone varchar(45) NOT NULL,
+	email varchar(45) NOT NULL,
+	qualification varchar(45) NOT NULL,
+	username varchar(45) NOT NULL,
+	password varchar(45) NOT NULL,
+	PRIMARY KEY('AID'));
+
+
+CREATE TABLE 'musicstore'.'album'(
+  'musicID' INT NOT NULL AUTO_INCREMENT,
+  'musicName' VARCHAR(45) NOT NULL,
+  'singerName' VARCHAR(45) NOT NULL,
+  'composerName' VARCHAR(45) NOT NULL,
+  'genre' VARCHAR(30) NOT NULL,
+  PRIMARY KEY ('musicID'));
+
