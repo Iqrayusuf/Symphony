@@ -1,1 +1,1 @@
-"# Symphony" 
+Developed a full-stack web application using Java Servlets, Apache Tomcat, and MySQL. The platform offers a comprehensive solution for music enthusiasts, enabling users to browse and search a vast music catalog, securely purchase songs and albums, rent musical instruments and equipment, and buy music-related gear. With a dynamic user interface, secure user authentication, and seamless backend integration, the application efficiently manages inventory, rentals, and transactions, providing a streamlined and engaging user experience.
