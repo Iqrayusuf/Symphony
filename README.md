@@ -1,6 +1,6 @@
 🎵 Symphony – Online Music Store Platform
 
-Symphony** is a full-stack web application built using **Java Servlets**, **Apache Tomcat**, and **MySQL**, designed to serve as a comprehensive platform for music enthusiasts. It enables users to browse, purchase, rent, and manage a variety of music-related products with ease.
+Symphony is a full-stack web application built using **Java Servlets**, **Apache Tomcat**, and **MySQL**, designed to serve as a comprehensive platform for music enthusiasts. It enables users to browse, purchase, rent, and manage a variety of music-related products with ease.
 
 ---
 
